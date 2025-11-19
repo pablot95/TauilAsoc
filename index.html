@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauil & Asoc. | Estudio Jurídico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-text">Tauil</span>
+                <span class="logo-ampersand">&</span>
+                <span class="logo-text">Asoc.</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#areas" class="nav__link">Áreas de Práctica</a></li>
+                    <li class="nav__item"><a href="#equipo" class="nav__link">Nuestro Equipo</a></li>
+                    <li class="nav__item"><a href="#nosotros" class="nav__link">Sobre Nosotros</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <span>&times;</span>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+            <div class="hero__text">
+                <h1 class="hero__title">
+                    <span class="hero__title-line">Excelencia</span>
+                    <span class="hero__title-line">en Derecho</span>
+                </h1>
+                <p class="hero__description">
+                    Comprometidos con la defensa de sus derechos e intereses. 
+                    Más de 30 años de experiencia en derecho civil, familia y laboral.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#contacto" class="btn btn-primary">Consulta Gratuita</a>
+                    <a href="#areas" class="btn btn-secondary">Nuestros Servicios</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#areas" class="scroll-down">
+                <span>Descubrir</span>
+                <div class="scroll-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="30">0</h3>
+                    <p class="stat-label">Años de Experiencia</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="500">0</h3>
+                    <p class="stat-label">Casos Exitosos</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="95">0</h3>
+                    <p class="stat-label">% Satisfacción</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="15">0</h3>
+                    <p class="stat-label">Abogados Expertos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas de Práctica -->
+    <section class="areas" id="areas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestras Especialidades</span>
+                <h2 class="section-title">Áreas de Práctica</h2>
+                <p class="section-description">
+                    Brindamos asesoramiento legal integral en las siguientes áreas del derecho
+                </p>
+            </div>
+
+            <div class="areas__grid">
+                <article class="area-card" data-aos="fade-up">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Derecho de Familia</h3>
+                    <p class="area-card__description">
+                        Divorcios, custodia de menores, régimen de visitas, pensiones alimentarias y filiación.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+
+                <article class="area-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Derecho Civil</h3>
+                    <p class="area-card__description">
+                        Contratos, sucesiones, responsabilidad civil, propiedad horizontal y litigios civiles.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+
+                <article class="area-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Derecho Laboral</h3>
+                    <p class="area-card__description">
+                        Despidos, accidentes laborales, ART, discriminación laboral y negociación colectiva.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+
+                <article class="area-card" data-aos="fade-up">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Mediación</h3>
+                    <p class="area-card__description">
+                        Resolución alternativa de conflictos familiares, comerciales y comunitarios.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+
+                <article class="area-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Sucesiones</h3>
+                    <p class="area-card__description">
+                        Testamentos, declaratorias de herederos, partición de bienes y planificación patrimonial.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+
+                <article class="area-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="area-card__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3 class="area-card__title">Derecho Inmobiliario</h3>
+                    <p class="area-card__description">
+                        Compraventa, locaciones, hipotecas, usucapión y conflictos entre vecinos.
+                    </p>
+                    <a href="#contacto" class="area-card__link">Consultar →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="quote">
+                <p class="quote__text">
+                    "La justicia es la constante y perpetua voluntad de dar a cada uno lo que le corresponde"
+                </p>
+                <cite class="quote__author">— Ulpiano, Jurista Romano</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Equipo -->
+    <section class="team" id="equipo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Profesionales Comprometidos</span>
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <p class="section-description">
+                    Abogados especializados dedicados a proteger sus intereses
+                </p>
+            </div>
+
+            <div class="team__grid">
+                <article class="team-card" data-aos="fade-up">
+                    <div class="team-card__image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=800&fit=crop" alt="Dr. Juan C. Tauil">
+                        <div class="team-card__overlay">
+                            <div class="team-card__social">
+                                <a href="#" aria-label="LinkedIn"><span>in</span></a>
+                                <a href="#" aria-label="Email"><span>@</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Dr. Juan C. Tauil</h3>
+                        <p class="team-card__role">Socio Fundador</p>
+                        <p class="team-card__specialty">Derecho Civil y Familia</p>
+                    </div>
+                </article>
+
+                <article class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-card__image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop" alt="Dra. María Fernández">
+                        <div class="team-card__overlay">
+                            <div class="team-card__social">
+                                <a href="#" aria-label="LinkedIn"><span>in</span></a>
+                                <a href="#" aria-label="Email"><span>@</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Dra. María Fernández</h3>
+                        <p class="team-card__role">Socia</p>
+                        <p class="team-card__specialty">Derecho Laboral</p>
+                    </div>
+                </article>
+
+                <article class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card__image">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&h=800&fit=crop" alt="Dr. Carlos Mendoza">
+                        <div class="team-card__overlay">
+                            <div class="team-card__social">
+                                <a href="#" aria-label="LinkedIn"><span>in</span></a>
+                                <a href="#" aria-label="Email"><span>@</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Dr. Carlos Mendoza</h3>
+                        <p class="team-card__role">Asociado Senior</p>
+                        <p class="team-card__specialty">Derecho Sucesorio</p>
+                    </div>
+                </article>
+                <!--
+                <article class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-card__image">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&h=800&fit=crop" alt="Dra. Laura Gómez">
+                        <div class="team-card__overlay">
+                            <div class="team-card__social">
+                                <a href="#" aria-label="LinkedIn"><span>in</span></a>
+                                <a href="#" aria-label="Email"><span>@</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card__info">
+                        <h3 class="team-card__name">Dra. Laura Gómez</h3>
+                        <p class="team-card__role">Asociada</p>
+                        <p class="team-card__specialty">Mediación y Familia</p>
+                    </div>-->
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=800&fit=crop" alt="Oficina Tauil & Asoc">
+                </div>
+                <div class="about__text" data-aos="fade-left">
+                    <span class="section-subtitle">Sobre Nosotros</span>
+                    <h2 class="section-title">Comprometidos con la Excelencia</h2>
+                    <p class="about__description">
+                        Desde 1995, <strong>Tauil & Asoc.</strong> ha sido un referente en el asesoramiento 
+                        jurídico en Argentina. Nuestro estudio se distingue por brindar soluciones legales 
+                        integrales, combinando experiencia, conocimiento profundo del derecho y un trato 
+                        cercano con cada cliente.
+                    </p>
+                    <p class="about__description">
+                        Nos especializamos en casos de alta complejidad, donde la estrategia legal y la 
+                        dedicación marcan la diferencia. Cada caso es único, y por eso ofrecemos un 
+                        servicio personalizado que prioriza sus objetivos e intereses.
+                    </p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Experiencia Comprobada</h4>
+                                <p>Más de tres décadas resolviendo casos exitosamente</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Atención Personalizada</h4>
+                                <p>Cada cliente recibe un servicio adaptado a sus necesidades</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">✓</div>
+                            <div class="feature__text">
+                                <h4>Ética Profesional</h4>
+                                <p>Transparencia y compromiso en cada actuación</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestro Método</span>
+                <h2 class="section-title">Cómo Trabajamos</h2>
+            </div>
+
+            <div class="process__timeline">
+                <div class="process-step" data-aos="fade-up">
+                    <div class="process-step__number">01</div>
+                    <div class="process-step__content">
+                        <h3>Consulta Inicial</h3>
+                        <p>Escuchamos su caso y evaluamos las mejores opciones legales disponibles.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-step__number">02</div>
+                    <div class="process-step__content">
+                        <h3>Estrategia Legal</h3>
+                        <p>Diseñamos un plan de acción personalizado para alcanzar sus objetivos.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-step__number">03</div>
+                    <div class="process-step__content">
+                        <h3>Ejecución</h3>
+                        <p>Implementamos la estrategia con dedicación y profesionalismo.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-step__number">04</div>
+                    <div class="process-step__content">
+                        <h3>Resultados</h3>
+                        <p>Trabajamos hasta lograr la mejor resolución posible para su caso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonios</span>
+                <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            </div>
+
+            <div class="testimonials__slider">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">
+                        "Excelente atención y profesionalismo. El Dr. Tauil manejó mi caso de divorcio 
+                        con mucha empatía y logró un acuerdo justo para ambas partes. Muy recomendable."
+                    </p>
+                    <div class="testimonial-card__author">
+                        <strong>Ana Martínez</strong>
+                        <span>Buenos Aires</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">
+                        "Después de un accidente laboral, no sabía qué hacer. La Dra. Fernández me guió 
+                        en todo el proceso y conseguimos una compensación justa. Eternamente agradecido."
+                    </p>
+                    <div class="testimonial-card__author">
+                        <strong>Roberto Silva</strong>
+                        <span>Córdoba</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">
+                        "El proceso de sucesión fue complejo, pero el equipo de Tauil & Asoc. lo resolvió 
+                        de manera eficiente. Siempre estuvieron disponibles para responder mis dudas."
+                    </p>
+                    <div class="testimonial-card__author">
+                        <strong>María Rodríguez</strong>
+                        <span>Rosario</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact__content">
+                <div class="contact__info" data-aos="fade-right">
+                    <span class="section-subtitle">Contáctenos</span>
+                    <h2 class="section-title">Estamos Aquí para Ayudarle</h2>
+                    <p class="contact__description">
+                        Primera consulta sin cargo. Contáctenos y descubra cómo podemos 
+                        ayudarle a resolver su situación legal.
+                    </p>
+
+                    <div class="contact__details">
+                        <div class="contact-detail">
+                            <div class="contact-detail__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-detail__text">
+                                <h4>Dirección</h4>
+                                <p>Av. Corrientes 1234, Piso 5<br>CABA, Buenos Aires</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-detail__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-detail__text">
+                                <h4>Teléfono</h4>
+                                <p>+54 11 4567-8900<br>+54 9 11 2345-6789</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-detail__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-detail__text">
+                                <h4>Email</h4>
+                                <p>consultas@tauilyasoc.com.ar<br>info@tauilyasoc.com.ar</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-detail__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-detail__text">
+                                <h4>Horarios</h4>
+                                <p>Lunes a Viernes: 9:00 - 18:00<br>Sábados: 9:00 - 13:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Área de Interés</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Seleccione un área</option>
+                            <option value="familia">Derecho de Familia</option>
+                            <option value="civil">Derecho Civil</option>
+                            <option value="laboral">Derecho Laboral</option>
+                            <option value="sucesiones">Sucesiones</option>
+                            <option value="inmobiliario">Derecho Inmobiliario</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Consulta</button>
+                    <p class="form-privacy">
+                        Al enviar este formulario, acepta nuestra política de privacidad.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__col">
+                    <a href="#" class="footer__logo">
+                        <span class="logo-text">Tauil</span>
+                        <span class="logo-ampersand">&</span>
+                        <span class="logo-text">Asoc.</span>
+                    </a>
+                    <p class="footer__description">
+                        Estudio jurídico especializado en derecho civil, familia y laboral.
+                        Defendiendo sus derechos desde 1995.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title">Áreas Legales</h4>
+                    <ul class="footer__links">
+                        <li><a href="#areas">Derecho de Familia</a></li>
+                        <li><a href="#areas">Derecho Civil</a></li>
+                        <li><a href="#areas">Derecho Laboral</a></li>
+                        <li><a href="#areas">Sucesiones</a></li>
+                        <li><a href="#areas">Mediación</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title">Información</h4>
+                    <ul class="footer__links">
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#equipo">Nuestro Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Blog Legal</a></li>
+                        <li><a href="#">Casos de Éxito</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title">Newsletter</h4>
+                    <p class="footer__newsletter-text">
+                        Reciba novedades legales y consejos útiles en su email.
+                    </p>
+                    <form class="footer__newsletter">
+                        <input type="email" placeholder="Su email" required>
+                        <button type="submit" aria-label="Suscribirse">→</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2024 Tauil & Asoc. Todos los derechos reservados.</p>
+                <div class="footer__legal">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
