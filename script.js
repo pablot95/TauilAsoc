@@ -1,8 +1,3 @@
-// ========================================
-// NAVIGATION
-// ========================================
-
-// Scroll header
 const header = document.getElementById('header');
 const scrollY = window.pageYOffset;
 
@@ -14,7 +9,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Mobile menu
 const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
@@ -31,7 +25,6 @@ if (navClose) {
     });
 }
 
-// Close menu on link click
 const navLinks = document.querySelectorAll('.nav__link');
 
 navLinks.forEach(link => {
@@ -40,7 +33,6 @@ navLinks.forEach(link => {
     });
 });
 
-// Active link on scroll
 const sections = document.querySelectorAll('section[id]');
 
 function scrollActive() {
@@ -63,10 +55,6 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive);
-
-// ========================================
-// SMOOTH SCROLL
-// ========================================
 
 const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
 
@@ -91,14 +79,10 @@ smoothScrollLinks.forEach(link => {
     });
 });
 
-// ========================================
-// STATS COUNTER ANIMATION
-// ========================================
-
 function animateCounter(element) {
     const target = parseInt(element.getAttribute('data-target'));
-    const duration = 2000; // 2 seconds
-    const increment = target / (duration / 16); // 60fps
+    const duration = 2000;
+    const increment = target / (duration / 16);
     let current = 0;
 
     const updateCounter = () => {
@@ -114,7 +98,6 @@ function animateCounter(element) {
     updateCounter();
 }
 
-// Intersection Observer for stats
 const statsObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -134,10 +117,6 @@ const statsSection = document.querySelector('.stats');
 if (statsSection) {
     statsObserver.observe(statsSection);
 }
-
-// ========================================
-// ANIMATE ON SCROLL (AOS)
-// ========================================
 
 const animateOnScroll = () => {
     const elements = document.querySelectorAll('[data-aos]');
